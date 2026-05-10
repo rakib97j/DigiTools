@@ -3,7 +3,6 @@ const NavBar = () => {
     return (
       <nav>
         <div className="navbar bg-base-100 shadow-sm ">
-
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -48,7 +47,10 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
-            <a href="home" className=" cursor-pointer md:ml-15 font-black text-3xl flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">
+            <a
+              href="home"
+              className=" cursor-pointer md:ml-15 font-black text-3xl flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-[#4F39F6] to-[#9514FA]"
+            >
               DigiTools
             </a>
           </div>
@@ -92,10 +94,13 @@ const NavBar = () => {
                 8
               </span>
             </div>
-            <a href="/login" className=" mr-4 font-semibold text-base text-[#101727]">
+            <a
+              href="/login"
+              className=" mr-4 font-semibold text-base text-[#101727]   hover:bg-[#4f39f63f] rounded-full px-4 py-3"
+            >
               Login
             </a>
-            <a className=" cursor-pointer md:mr-15 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-semibold rounded-full px-4 py-3 md:block hidden">
+            <a className=" hover:from-[#9614fa9a]  hover:to-[#4f39f6a2]  cursor-pointer md:mr-15 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-semibold rounded-full px-4 py-3 md:block hidden">
               Get Started
             </a>
           </div>
