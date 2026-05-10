@@ -43,7 +43,7 @@ const Banner = () => {
         </div>
         {/* Right  */}
         <div>
-          <img src={bannerImg} alt="" />
+          <img src={bannerImg} alt="This is Banner image" />
         </div>
       </div>
     );
