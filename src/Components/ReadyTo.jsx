@@ -15,6 +15,7 @@ const ReadyTo = () => {
         </div>
         {/* Second Portion */}
         <div>
+            {/* btn */}
           <div>
             <button className="px-4  py-3  bg-white rounded-full  text-base font-semibold  btn">
               <span className=" text-transparent bg-clip-text bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">
