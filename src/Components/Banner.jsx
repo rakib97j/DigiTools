@@ -29,10 +29,10 @@ const Banner = () => {
 
               <button className="btn px-[1px] py-[1px] ml-4 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  hover:shadow-lg">
                 <div className="flex items-center gap-2 px-6 py-3 bg-white rounded-full h-full w-full">
-                  {/* Play Icon */}
+                  
                   <Play className="text-[#4F39F6]" />
 
-                  {/* Gradient Text */}
+                  
                   <span className="text-base font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                     View Pricing
                   </span>
