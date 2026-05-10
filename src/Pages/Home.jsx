@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import ReadyTo from "../Components/ReadyTo";
 import Stats from "../Components/Stats";
+import TransparentPricing from "../Components/TransparentPricing";
 
 const Home = () => {
   return (
@@ -18,6 +19,14 @@ const Home = () => {
       {/* State  Section*/}
       <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] md:py-16 py-10  ">
         <Stats></Stats>
+      </div>
+
+      {/* Main Section  / Main > Get > Simple  */}
+      <div className="container mx-auto">
+        {/* Main */}
+        {/* Get */}
+        {/* Simple */}
+        <TransparentPricing></TransparentPricing>
       </div>
 
       {/* Ready To Transform Section */}
