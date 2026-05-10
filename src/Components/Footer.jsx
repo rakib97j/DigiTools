@@ -70,19 +70,19 @@ const Footer = () => {
             <h1 className="mb-4 font-medium text-xl">Social Links</h1>
             <div className="flex gap-3 justify-center md:justify-start">
               <a
-                href="https://www.instagram.com/rakib97j/ "
+                href="https://www.instagram.com/rakib97j/ " target="_blank"
                 className="px-2.5 py-2  rounded-full bg-white"
               >
                 <i class="fa-brands fa-instagram text-[#101727]"></i>
               </a>
               <a
-                href="https://www.facebook.com/rakib97j "
+                href="https://www.facebook.com/rakib97j " target="_blank"
                 className="px-2.5 py-2  rounded-full bg-white"
               >
                 <i class="fa-brands fa-square-facebook text-[#101727]"></i>
               </a>
               <a
-                href="https://github.com/rakib97j "
+                href="https://github.com/rakib97j " target="_blank"
                 className="px-2.5 py-2  rounded-full bg-white"
               >
                 <i class="fa-brands fa-github text-[#101727]"></i>
