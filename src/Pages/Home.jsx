@@ -1,5 +1,6 @@
 import Banner from "../Components/Banner";
 import Footer from "../Components/Footer";
+import GetStarted from "../Components/GetStarted";
 import NavBar from "../Components/NavBar";
 import ReadyTo from "../Components/ReadyTo";
 import Stats from "../Components/Stats";
@@ -22,9 +23,13 @@ const Home = () => {
       </div>
 
       {/* Main Section  / Main > Get > Simple  */}
+
+      {/* Get section */}
+      <div className="bg-[#F9FAFC]  ">
+        <GetStarted></GetStarted>
+      </div>
+
       <div className="container mx-auto">
-        {/* Main */}
-        {/* Get */}
         {/* Simple */}
         <TransparentPricing></TransparentPricing>
       </div>

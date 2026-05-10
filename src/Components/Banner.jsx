@@ -15,7 +15,7 @@ const Banner = () => {
           <h1 className="text-[#101727] font-extrabold text-4xl  md:text-7xl mb-4 landing-[84px]">
             Supercharge Your <br /> Digital Workflow
           </h1>
-          <p className="text-[#627382] font-normal text-lg leading-8 mb-8 ">
+          <p className="text-[#627382] font-normal text-lg leading-8 mb-8 md:mx-0 mx-5 ">
             Access premium AI tools, design assets, templates, and productivity
             <br />
             software—all in one place. Start creating faster today. <br />

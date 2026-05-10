@@ -57,19 +57,19 @@ const NavBar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-[#101727] font-semibold text-base">
               <li>
-                <a href="/products">Products</a>
+                <a href="#">Products</a>
               </li>
               <li>
-                <a href="/features">Features </a>
+                <a href="#">Features </a>
               </li>
               <li>
-                <a href="/pricing">Pricing</a>
+                <a href="#">Pricing</a>
               </li>
               <li>
-                <a href="/testimonials">Testimonials</a>
+                <a href="#">Testimonials</a>
               </li>
               <li>
-                <a href="/faq">FAQ</a>
+                <a href="#">FAQ</a>
               </li>
             </ul>
           </div>
@@ -95,7 +95,7 @@ const NavBar = () => {
               </span>
             </div>
             <a
-              href="/login"
+              href="#"
               className=" mr-4 font-semibold text-base text-[#101727]   hover:bg-[#4f39f63f] rounded-full px-4 py-3"
             >
               Login
