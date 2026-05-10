@@ -3,6 +3,7 @@ const NavBar = () => {
     return (
       <nav>
         <div className="navbar bg-base-100 shadow-sm ">
+
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -47,31 +48,31 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
-            <a className="md:ml-15 font-black text-3xl flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">
+            <a href="home" className=" cursor-pointer md:ml-15 font-black text-3xl flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-[#4F39F6] to-[#9514FA]">
               DigiTools
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-[#101727] font-semibold text-base ">
+            <ul className="menu menu-horizontal px-1 text-[#101727] font-semibold text-base">
               <li>
-                <a>Products</a>
+                <a href="/products">Products</a>
               </li>
               <li>
-                <a>Features </a>
+                <a href="/features">Features </a>
               </li>
               <li>
-                <a>Pricing</a>
+                <a href="/pricing">Pricing</a>
               </li>
               <li>
-                <a>Testimonials</a>
+                <a href="/testimonials">Testimonials</a>
               </li>
               <li>
-                <a>FAQ</a>
+                <a href="/faq">FAQ</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end gap-4 ">
-            <div className="indicator">
+            <div className="indicator cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -91,10 +92,10 @@ const NavBar = () => {
                 8
               </span>
             </div>
-            <a className=" mr-4 font-semibold text-base text-[#101727]">
+            <a href="/login" className=" mr-4 font-semibold text-base text-[#101727]">
               Login
             </a>
-            <a className="md:mr-15 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-semibold rounded-full px-4 py-3 md:block hidden">
+            <a className=" cursor-pointer md:mr-15 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-semibold rounded-full px-4 py-3 md:block hidden">
               Get Started
             </a>
           </div>
