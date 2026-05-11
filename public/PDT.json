@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro Builder",
+    "description": "Create professional resumes with ATS-friendly templates and easy customization.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Starter Kit",
+    "description": "Modern developer portfolio templates for personal branding.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Responsive design",
+      "Dark mode",
+      "SEO optimized",
+      "Easy customization"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "DevLaunch Hosting",
+    "description": "Fast and secure hosting solution for web developers.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Free SSL",
+      "99.9% uptime",
+      "One-click deploy",
+      "24/7 support"
+    ],
+    "icon": "🖥️"
+  },
+  {
+    "id": 4,
+    "name": "UI Components Pack",
+    "description": "Reusable React and Tailwind UI components for faster development.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "200+ components",
+      "Tailwind CSS support",
+      "Dark/light themes",
+      "Lifetime updates"
+    ],
+    "icon": "🧩"
+  },
+  {
+    "id": 5,
+    "name": "CodeMaster Academy",
+    "description": "Interactive coding courses for beginners and advanced learners.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "50+ coding courses",
+      "Project-based learning",
+      "Certificates",
+      "Community access"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 6,
+    "name": "TaskFlow Manager",
+    "description": "Smart productivity and task management tool for teams.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Kanban boards",
+      "Team collaboration",
+      "Deadline reminders",
+      "Cloud sync"
+    ],
+    "icon": "✅"
+  },
+  {
+    "id": 7,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts, captions, and marketing copy instantly.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI-generated content",
+      "SEO suggestions",
+      "Multiple languages",
+      "Tone customization"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage with easy file sharing and backup.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "1TB storage",
+      "Auto backup",
+      "File sharing",
+      "End-to-end encryption"
+    ],
+    "icon": "☁️"
+  },
+  {
+    "id": 9,
+    "name": "Crypto Wallet Secure",
+    "description": "A secure and user-friendly cryptocurrency wallet for digital assets.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Multi-currency support",
+      "Biometric security",
+      "Instant transactions",
+      "Backup recovery"
+    ],
+    "icon": "💰"
+  },
+  {
+    "id": 10,
+    "name": "Fitness Tracker Pro",
+    "description": "Track workouts, calories, and health progress with smart insights.",
+    "price": 39,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Workout analytics",
+      "Calorie tracking",
+      "Health reports",
+      "Goal reminders"
+    ],
+    "icon": "🏋️"
+  }
+]
