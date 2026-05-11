@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AllProducts from "../Components/AllProducts";
 import Banner from "../Components/Banner";
 import Footer from "../Components/Footer";
@@ -7,14 +8,22 @@ import ReadyTo from "../Components/ReadyTo";
 import Stats from "../Components/Stats";
 import TransparentPricing from "../Components/TransparentPricing";
 
+
+
 const Home = () => {
+
+
+  // Btn function 
+
+  const [carts ,setCarts] = useState([]);
+
   return (
     <div>
       {/* Nav Bar */}
-      <NavBar></NavBar>
+      <NavBar carts={carts}></NavBar>
 
       {/* Banner section  */}
-      <div className="container mx-auto    ">
+      <div className="container mx-auto  ">
         <Banner></Banner>
       </div>
 
@@ -26,7 +35,7 @@ const Home = () => {
       {/* Main Section  / Main > Get > Simple  */}
 
       <div className="my-28 container mx-auto">
-          <AllProducts></AllProducts>
+        <AllProducts carts={carts} setCarts={setCarts}></AllProducts>
       </div>
 
       {/* Get section */}
