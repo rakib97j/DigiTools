@@ -13,9 +13,13 @@ const TransparentPricing = () => {
 
         {/*  Transparent Pricing Card */}
 
-        <section className="grid md:grid-cols-2 lg:grid-cols-3  gap-7 md:mx-0 mx-5">
+        <section className="grid md:grid-cols-2 lg:grid-cols-3  gap-7 md:mx-5 mx-5">
           {/* card-01  */}
-          <div className="border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] flex flex-col justify-between ">
+          <div
+            className="border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] flex flex-col justify-between transition-all duration-300 ease-in-out
+                        hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
+                        group-hover:bg-[#FCF9FF] "
+          >
             <div>
               <h1 className="font-bold text-2xl text-[#101727] mb-2">
                 Starter
@@ -34,20 +38,20 @@ const TransparentPricing = () => {
             <div>
               <ul>
                 <li className="mb-2 text-[#627382] leading-5">
-                  <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2 "></i>
+                  <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2 "></i>
                   Access to 10 free tools
                 </li>
                 <li className="mb-2 text-[#627382] leading-5">
-                  <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                  <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
                   Basic templates
                 </li>
                 <li className="mb-2 text-[#627382] leading-5">
-                  <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                  <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
                   Community support
                 </li>
                 <li className="mb-2 text-[#627382] leading-5">
-                  <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>1
-                  project per month
+                  <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                  1 project per month
                 </li>
               </ul>
             </div>
@@ -58,9 +62,12 @@ const TransparentPricing = () => {
           </div>
           {/* card-02  */}
 
-          <div className=" relative ">
+          <div
+            className=" relative  transition-all duration-300 ease-in-out
+                        hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
+                        group-hover:bg-[#FCF9FF]"
+          >
             <p className=" btn  rounded-full py-1.5 px-3 text-[#BB4D00] font-medium text-sm bg-[#FEF3C6] border-0 absolute  -top-.5 left-1/2 -translate-x-1/2 -translate-y-1/2  ">
-              
               Most Popular
             </p>
 
@@ -78,27 +85,27 @@ const TransparentPricing = () => {
 
               <ul className="">
                 <li className="mb-2 text-[#ffffff] leading-5">
-                  <i class="fa-solid fa-check text-white h-5 w-5  mr-2"></i>{" "}
+                  <i className="fa-solid fa-check text-white h-5 w-5  mr-2"></i>{" "}
                   Access to all premium tools
                 </li>
                 <li className="mb-2 text-[#ffffff] leading-5">
-                  <i class="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
+                  <i className="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
                   Unlimited templates
                 </li>
                 <li className="mb-2 text-[#ffffff] leading-5">
-                  <i class="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
+                  <i className="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
                   Priority support
                 </li>
                 <li className="mb-2 text-[#ffffff] leading-5">
-                  <i class="fa-solid fa-check text-white h-5 w-5 mr-2"></i>
+                  <i className="fa-solid fa-check text-white h-5 w-5 mr-2"></i>
                   Unlimited projects
                 </li>
                 <li className="mb-2 text-[#ffffff] leading-5">
-                  <i class="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
+                  <i className="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
                   Cloud sync
                 </li>
                 <li className="mb-10 text-[#ffffff] leading-5">
-                  <i class="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
+                  <i className="fa-solid fa-check text-white h-5 w-5 mr-2"></i>{" "}
                   Advanced analytics
                 </li>
               </ul>
@@ -112,7 +119,11 @@ const TransparentPricing = () => {
           </div>
           {/* card-03  */}
 
-          <div className="border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] ">
+          <div
+            className="border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] transition-all duration-300 ease-in-out
+                        hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
+                        group-hover:bg-[#FCF9FF] "
+          >
             <h1 className="font-bold text-2xl text-[#101727] mb-2">
               Enterprise
             </h1>
@@ -128,27 +139,27 @@ const TransparentPricing = () => {
 
             <ul>
               <li className="mb-2 text-[#627382] leading-5">
-                <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2 "></i>
+                <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2 "></i>
                 Everything in Pro
               </li>
               <li className="mb-2 text-[#627382] leading-5">
-                <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
                 Team collaboration
               </li>
               <li className="mb-2 text-[#627382] leading-5">
-                <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
                 Custom integrations
               </li>
               <li className="mb-2 text-[#627382] leading-5">
-                <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
                 Dedicated support
               </li>
               <li className="mb-2 text-[#627382] leading-5">
-                <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>{" "}
+                <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>{" "}
                 SLA guarantee
               </li>
               <li className="mb-10 text-[#627382] leading-5">
-                <i class="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
+                <i className="fa-solid fa-check text-[#30B868] h-5 w-5 mr-2"></i>
                 Custom branding
               </li>
             </ul>

@@ -1,3 +1,4 @@
+import AllProducts from "../Components/AllProducts";
 import Banner from "../Components/Banner";
 import Footer from "../Components/Footer";
 import GetStarted from "../Components/GetStarted";
@@ -13,7 +14,7 @@ const Home = () => {
       <NavBar></NavBar>
 
       {/* Banner section  */}
-      <div className="container mx-auto  ">
+      <div className="container mx-auto    ">
         <Banner></Banner>
       </div>
 
@@ -23,6 +24,10 @@ const Home = () => {
       </div>
 
       {/* Main Section  / Main > Get > Simple  */}
+
+      <div className="my-28 container mx-auto">
+          <AllProducts></AllProducts>
+      </div>
 
       {/* Get section */}
       <div className="bg-[#F9FAFC]  ">

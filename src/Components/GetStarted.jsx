@@ -16,9 +16,13 @@ const GetStarted = () => {
             </p>
           </div>
           {/* Card */}
-          <div className="grid md:grid-cols-2 md:mx-0 mx-5 lg:grid-cols-3 gap-7  text-center">
+          <div className="grid md:grid-cols-2 md:mx-5 mx-5 lg:grid-cols-3 gap-7  text-center">
             {/* Card 01 */}
-            <div className="p-6 bg-white rounded-2xl text-center">
+            <div
+              className="p-6 bg-white rounded-2xl text-center transition-all duration-300 ease-in-out
+                        hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
+                        group-hover:bg-[#FCF9FF]"
+            >
               <div className="flex justify-end">
                 <p className="text-white px-2.5 py-1.5  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-sm font-bold  rounded-full w-fit ">
                   01
@@ -40,8 +44,12 @@ const GetStarted = () => {
               </p>
             </div>
 
-              {/* Card 02 */}
-            <div className="p-6 bg-white rounded-2xl">
+            {/* Card 02 */}
+            <div
+              className="p-6 bg-white rounded-2xl transition-all duration-300 ease-in-out
+                        hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
+                        group-hover:bg-[#FCF9FF]"
+            >
               <div className="flex justify-end">
                 <p className="text-white px-2.5 py-1.5  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-sm font-bold  rounded-full w-fit ">
                   02
@@ -63,9 +71,12 @@ const GetStarted = () => {
               </p>
             </div>
 
-
             {/* Card 03 */}
-            <div className="p-6 bg-white rounded-2xl">
+            <div
+              className="p-6 bg-white rounded-2xl transition-all duration-300 ease-in-out
+                        hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
+                        group-hover:bg-[#FCF9FF]"
+            >
               <div className="flex justify-end">
                 <p className="text-white px-2.5 py-1.5  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-sm font-bold  rounded-full w-fit ">
                   03

@@ -3,7 +3,7 @@ import bannerImg from "/banner.png"
 
 const Banner = () => {
     return (
-      <div className=" justify-between mb-14 mt-2.5   md:my-20 flex flex-col-reverse md:flex-row ">
+      <div className=" justify-between mb-14 mt-2.5 md:mx-5  md:my-20 flex flex-col-reverse md:flex-row ">
         {/* left  */}
         <div className="flex flex-col justify-center items-center md:items-start ">
           <p className="bg-[#E1E7FF] w-fit px-4 py-1.5 rounded-full  mb-4 md:mt-0 mt-8 inline-flex items-center gap-2 ">
