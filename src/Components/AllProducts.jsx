@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Carts from "./Carts";
 import ProductCard from "./ProductCard";
 
@@ -71,7 +71,18 @@ const AllProducts = ({ carts, setCarts }) => {
       {/* 2nd part Dynamic Card Section */}
       <div>
         {activeTab == "product" ? (
-          <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
+          <Suspense
+            fallback={
+              <div className=" flex  gap-1 text-[#9514FA] justify-center items-center py-16">
+                
+                <span className="loading loading-dots loading-xl"></span>
+                <span className="loading loading-dots loading-xl"></span>
+                <span className="loading loading-dots loading-xl"></span>
+              </div>
+            }
+          >
+            <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
+          </Suspense>
         ) : (
           <Carts setCarts={setCarts} carts={carts}></Carts>
         )}
