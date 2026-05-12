@@ -13,7 +13,11 @@ const Banner = () => {
             </span>
           </p>
           <h1 className="text-[#101727] font-extrabold text-4xl  md:text-7xl mb-4 landing-[84px]">
-            Supercharge Your <br /> Digital Workflow
+            Supercharge Your <br />{" "}
+            <span className=" bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+              {" "}
+              Digital Workflow
+            </span>
           </h1>
           <p className="text-[#627382] font-normal text-lg leading-8 mb-8 md:mx-0 mx-5 ">
             Access premium AI tools, design assets, templates, and productivity
@@ -27,13 +31,11 @@ const Banner = () => {
                 Explore Products
               </button>
 
-              <button className="btn px-[1px] py-[1px] ml-4 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  hover:shadow-lg">
+              <button className=" btn px-[1px] py-[1px] ml-4 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  hover:shadow-lg">
                 <div className="flex items-center gap-2 px-6 py-3 bg-white rounded-full h-full w-full">
-                  
                   <Play className="text-[#4F39F6]" />
 
-                  
-                  <span className="text-base font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+                  <span className="  text-base font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                     View Pricing
                   </span>
                 </div>
