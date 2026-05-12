@@ -21,7 +21,7 @@ const Carts = ({carts ,setCarts}) => {
 
     if(carts.length == 0 ){
         return (
-          <div className=" shadow-xl border-2 border-[#F2F2F2] rounded-2xl bg-white p-10 text-center text-[#101727] font-black text-5xl">
+          <div className=" md:mx-5  mx-5 shadow-xl border-2 border-[#F2F2F2] rounded-2xl bg-white p-10 text-center text-[#101727] font-black text-5xl">
             <h1 className="text-2xl font-bold text-[#101727] mb-6">
               Your Cart
             </h1>
@@ -30,8 +30,8 @@ const Carts = ({carts ,setCarts}) => {
         );
     }
     return (
-      <div className="border-2 shadow-xl border-[#F2F2F2] rounded-2xl bg-white p-10">
-        <h1 className="text-2xl font-bold text-[#101727] mb-6">Your Cart</h1>
+      <div className="border-2 shadow-xl border-[#F2F2F2] rounded-2xl bg-white p-10  md:mx-5  mx-5">
+        <h1 className=" text-2xl font-bold text-[#101727] mb-6">Your Cart</h1>
         {carts.map((cart) => (
           <div key={cart.id}>
             {/* cart card */}
@@ -45,7 +45,7 @@ const Carts = ({carts ,setCarts}) => {
                 </div>
 
                 <div>
-                  <h1 className="text-[#101727] font-semibold text-xl ">
+                  <h1 className="text-[#101727]  font-semibold text-xl ">
                     {cart.name}
                   </h1>
                   <p className="text-[#627382] font-normal text-base">
@@ -54,11 +54,14 @@ const Carts = ({carts ,setCarts}) => {
                 </div>
               </div>
 
-                <div>
-
-              <button onClick={ () => removeCartItem(cart.id)} className="text-[#FF3980] font-bold text-base cursor-pointer">remove</button>
-
-                </div>
+              <div>
+                <button
+                  onClick={() => removeCartItem(cart.id)}
+                  className="text-[#FF3980] font-bold text-base cursor-pointer"
+                >
+                  remove
+                </button>
+              </div>
             </div>
           </div>
         ))}
@@ -69,7 +72,10 @@ const Carts = ({carts ,setCarts}) => {
           <h1 className="text-2xl font-bold text-[#101727] "> ${total}</h1>
         </div>
 
-        <button onClick={() =>handleCheckout()} className="px-4 w-full  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn ">
+        <button
+          onClick={() => handleCheckout()}
+          className="px-4 w-full  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn "
+        >
           Proceed to Checkout
         </button>
       </div>
