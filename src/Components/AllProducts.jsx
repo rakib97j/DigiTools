@@ -1,3 +1,4 @@
+import Carts from "./Carts";
 import ProductCard from "./ProductCard";
 
 
@@ -41,6 +42,7 @@ const AllProducts = ({ carts, setCarts }) => {
       {/* 2nd part Dynamic Card Section */}
       <div>
         <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
+        <Carts carts={carts}></Carts>
       </div>
     </div>
   );

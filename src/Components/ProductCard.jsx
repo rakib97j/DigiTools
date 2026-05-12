@@ -47,7 +47,7 @@ const ProductCard = ({ carts, setCarts }) => {
                 {product.tagType}
               </p>
             </div>
-            <p className=" px-3.5 py-3  border bg-[#d7cedd56] border-[#F2F2F2] rounded-full w-fit">
+            <p className=" px-3.5 py-3  border bg-[#c3a6da56] border-[#F2F2F2] rounded-full w-fit">
               {product.icon}
             </p>
             <h1 className="py-4 text-2xl font-bold text-[#101727]">
