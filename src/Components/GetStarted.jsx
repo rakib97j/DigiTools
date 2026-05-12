@@ -19,7 +19,7 @@ const GetStarted = () => {
           <div className="grid md:grid-cols-2 md:mx-5 mx-5 lg:grid-cols-3 gap-7  text-center">
             {/* Card 01 */}
             <div
-              className="p-6 bg-white rounded-2xl text-center transition-all duration-300 ease-in-out
+              className=" shadow-md p-6 bg-white rounded-2xl text-center transition-all duration-300 ease-in-out
                         hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
                         group-hover:bg-[#FCF9FF]"
             >
@@ -46,7 +46,7 @@ const GetStarted = () => {
 
             {/* Card 02 */}
             <div
-              className="p-6 bg-white rounded-2xl transition-all duration-300 ease-in-out
+              className=" shadow-md p-6 bg-white rounded-2xl transition-all duration-300 ease-in-out
                         hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
                         group-hover:bg-[#FCF9FF]"
             >
@@ -73,7 +73,7 @@ const GetStarted = () => {
 
             {/* Card 03 */}
             <div
-              className="p-6 bg-white rounded-2xl transition-all duration-300 ease-in-out
+              className=" shadow-md p-6 bg-white rounded-2xl transition-all duration-300 ease-in-out
                         hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
                         group-hover:bg-[#FCF9FF]"
             >

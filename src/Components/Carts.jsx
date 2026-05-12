@@ -3,7 +3,7 @@ const Carts = ({carts}) => {
 
     if(carts.length == 0 ){
         return (
-          <div className="border-2 border-[#F2F2F2] rounded-2xl bg-white p-10 text-center text-[#101727] font-black text-5xl">
+          <div className=" shadow-xl border-2 border-[#F2F2F2] rounded-2xl bg-white p-10 text-center text-[#101727] font-black text-5xl">
             <h1 className="text-2xl font-bold text-[#101727] mb-6">
               Your Cart
             </h1>
@@ -12,12 +12,12 @@ const Carts = ({carts}) => {
         );
     }
     return (
-      <div className="border-2 border-[#F2F2F2] rounded-2xl bg-white p-10">
+      <div className="border-2 shadow-xl border-[#F2F2F2] rounded-2xl bg-white p-10">
         <h1 className="text-2xl font-bold text-[#101727] mb-6">Your Cart</h1>
         {carts.map((cart) => (
           <div key={cart.id}>
             {/* cart card */}
-            <div className="bg-[#F9FAFC] p-5 rounded-2xl flex items-center justify-between gap-5 mb-4">
+            <div className="bg-[#F9FAFC] p-5 rounded-2xl flex items-center shadow-md justify-between gap-5 mb-4">
               {/* Cart icon */}
               <div className="flex gap-4">
                 <div>
@@ -44,7 +44,7 @@ const Carts = ({carts}) => {
         {/* Cart Total */}
         <div className="flex justify-between my-5">
           <h1 className="text-[#627382] font-normal text-base">total:</h1>
-          <h1 className="text-2xl font-bold text-[#101727] ">22</h1>
+          <h1 className="text-2xl font-bold text-[#101727] "> $22</h1>
         </div>
 
         <button className="px-4 w-full  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn ">

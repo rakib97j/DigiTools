@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Carts from "./Carts";
 import ProductCard from "./ProductCard";
 
@@ -5,6 +6,8 @@ import ProductCard from "./ProductCard";
 
 
 const AllProducts = ({ carts, setCarts }) => {
+
+  const [activeTab, setActiveTab] = useState('product');
   return (
     <div>
       {/* 1st part  */}
@@ -23,11 +26,17 @@ const AllProducts = ({ carts, setCarts }) => {
         <div className="flex justify-center mb-10">
           <div className=" text-center bg-white shadow-lg w-fit px-4 py-3 rounded-full ">
             <div>
-              <button className="px-4  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn ">
+              <button
+                onClick={() => setActiveTab("product")}
+                className="px-4  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn "
+              >
                 Products
               </button>
 
-              <button className="btn px-[1px] py-[1px] ml-4 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  hover:shadow-lg">
+              <button
+                onClick={() => setActiveTab("carts")}
+                className="btn px-[1px] py-[1px] ml-4 rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  hover:shadow-lg"
+              >
                 <div className="flex items-center gap-2 px-6 py-3 bg-white rounded-full h-full w-full">
                   <span className="text-base font-semibold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                     Cart <span>({carts.length})</span>
@@ -41,8 +50,14 @@ const AllProducts = ({ carts, setCarts }) => {
 
       {/* 2nd part Dynamic Card Section */}
       <div>
-        <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
-        <Carts carts={carts}></Carts>
+        {/* <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
+        <Carts carts={carts}></Carts> */}
+
+        {activeTab == "product" ? (
+          <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
+        ) : (
+          <Carts carts={carts}></Carts>
+        )}
       </div>
     </div>
   );

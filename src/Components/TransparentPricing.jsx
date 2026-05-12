@@ -16,7 +16,7 @@ const TransparentPricing = () => {
         <section className="grid md:grid-cols-2 lg:grid-cols-3  gap-7 md:mx-5 mx-5">
           {/* card-01  */}
           <div
-            className="border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] flex flex-col justify-between transition-all duration-300 ease-in-out
+            className=" shadow-lg border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] flex flex-col justify-between transition-all duration-300 ease-in-out
                         hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
                         group-hover:bg-[#FCF9FF] "
           >
@@ -63,7 +63,7 @@ const TransparentPricing = () => {
           {/* card-02  */}
 
           <div
-            className=" relative  transition-all duration-300 ease-in-out
+            className="  relative  transition-all duration-300 ease-in-out
                         hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
                         group-hover:bg-[#FCF9FF]"
           >
@@ -120,7 +120,7 @@ const TransparentPricing = () => {
           {/* card-03  */}
 
           <div
-            className="border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] transition-all duration-300 ease-in-out
+            className=" shadow-lg border border-[#F2F2F2] rounded-2xl p-6 bg-[#F9FAFC] transition-all duration-300 ease-in-out
                         hover:border-transparent hover:shadow-2xl hover:shadow-gray-200 hover:-translate-y-2
                         group-hover:bg-[#FCF9FF] "
           >
