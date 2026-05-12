@@ -1,5 +1,23 @@
+import toast from "react-hot-toast";
 
-const Carts = ({carts}) => {
+const Carts = ({carts ,setCarts}) => {
+
+    const total = carts.reduce((sum , cart) => sum + cart.price , 0);
+
+
+    // Delete FunCtion
+    const removeCartItem =(id) => {
+        const filterCarts = carts.filter( cart => cart.id != id)
+        setCarts(filterCarts)
+        toast.error("Item Remove")
+    }
+
+
+// Checkout FUnction 
+    const handleCheckout = () => {
+      setCarts([]); 
+      toast.success("Checkout successful!");
+    };
 
     if(carts.length == 0 ){
         return (
@@ -36,7 +54,11 @@ const Carts = ({carts}) => {
                 </div>
               </div>
 
-              <button className="text-[#FF3980] font-bold text-base cursor-pointer">remove</button>
+                <div>
+
+              <button onClick={ () => removeCartItem(cart.id)} className="text-[#FF3980] font-bold text-base cursor-pointer">remove</button>
+
+                </div>
             </div>
           </div>
         ))}
@@ -44,10 +66,10 @@ const Carts = ({carts}) => {
         {/* Cart Total */}
         <div className="flex justify-between my-5">
           <h1 className="text-[#627382] font-normal text-base">total:</h1>
-          <h1 className="text-2xl font-bold text-[#101727] "> $22</h1>
+          <h1 className="text-2xl font-bold text-[#101727] "> ${total}</h1>
         </div>
 
-        <button className="px-4 w-full  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn ">
+        <button onClick={() =>handleCheckout()} className="px-4 w-full  py-3  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-base font-bold rounded-full btn ">
           Proceed to Checkout
         </button>
       </div>

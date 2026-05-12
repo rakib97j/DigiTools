@@ -50,13 +50,11 @@ const AllProducts = ({ carts, setCarts }) => {
 
       {/* 2nd part Dynamic Card Section */}
       <div>
-        {/* <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
-        <Carts carts={carts}></Carts> */}
-
+        
         {activeTab == "product" ? (
           <ProductCard carts={carts} setCarts={setCarts}></ProductCard>
         ) : (
-          <Carts carts={carts}></Carts>
+          <Carts setCarts={setCarts} carts={carts}></Carts>
         )}
       </div>
     </div>

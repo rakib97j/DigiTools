@@ -1,5 +1,6 @@
 
 import { use } from "react";
+import toast from "react-hot-toast";
 
 
 // Json Fetch 
@@ -16,11 +17,13 @@ const ProductCard = ({ carts, setCarts }) => {
 
     if(isExist){
       
-      alert('already item added')
+      toast.error('already item added')
       return
     }
 
     setCarts([...carts, product]);
+
+    toast.success('Item Added to Card')
     
     
   };
