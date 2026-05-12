@@ -1,6 +1,6 @@
 const Stats = () => {
     return (
-      <div className="  md:mx-28 mx-auto md:flex justify-between  ">
+      <div className="  container mx-auto md:grid-cols-2  gap-6  grid lg:grid-cols-3 ">
         <div
           className="text-center transition-all duration-300 ease-in-out
                         hover:border-transparent   hover:-translate-y-2"
