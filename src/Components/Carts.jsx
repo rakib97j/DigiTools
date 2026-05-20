@@ -1,4 +1,7 @@
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
+// import { ToastContainer } from "react-toastify";
+
+import { toast } from "react-toastify";
 
 const Carts = ({carts ,setCarts}) => {
 

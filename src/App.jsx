@@ -1,5 +1,6 @@
 
-import { Toaster } from "react-hot-toast";
+// import { Toaster } from "react-hot-toast";
+import { ToastContainer } from "react-toastify";
 import "./App.css";
 import Home from "./Pages/Home";
 
@@ -15,8 +16,9 @@ function App() {
     <>
       <Home></Home>
 
-      <Toaster position="top-right" reverseOrder={false} />
-      
+      <ToastContainer />
+
+      {/* <Toaster position="top-right" reverseOrder={false} /> */}
     </>
   );
 }

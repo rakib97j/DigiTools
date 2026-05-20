@@ -1,6 +1,7 @@
 
 import { use } from "react";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+// import toast from "react-hot-toast";
 
 
 // Json Fetch 
